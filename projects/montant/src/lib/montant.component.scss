@@ -1,0 +1,40 @@
+ .format-on-error-true, .montantMin-on-error-true, .montantMax-on-error-true, .mandatory-on-error-true {
+    display: block;
+    margin-top: 7px;
+    background-color: #b4132b;
+    background-image: -webkit-linear-gradient(#b4132b 43%, #ba1600 100%);
+    background-image: -moz-linear-gradient(#b4132b 43%, #ba1600 100%);
+    background-image: linear-gradient(#b4132b 43%, #ba1600 100%);
+    background-image: -ms-linear-gradient(#b4132b 43%, #ba1600 100%);
+    border: 1px solid #9f1300;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(0,0,0,0.65) 0 2px 7px, inset #ff3c3c 0 1px 0px;
+    box-shadow: rgba(0,0,0,0.65) 0 2px 7px, inset #ff3c3c 0 1px 0px;
+    color: #f3f3f3;
+    font-size: 1em;
+    line-height: 1.2em;
+    width: 95%;
+    padding: 0.4em 0.6em;
+    text-shadow: #901100 0 -1px 0;
+ }
+ .format-on-error-false, .montantMin-on-error-false, .montantMax-on-error-false, .mandatory-on-error-false {
+     display: none;
+ }
+ .component-on-error-true {
+     border-color: #b94a48;
+ }
+  .component-on-error-false {
+    border-color: rgba(0,0,0,0.4);
+ }
+.input-montant {
+   display: inline-block;
+   width: 95%;
+   margin-right: 10px;
+   vertical-align: baseline;
+   text-align: left;
+}
+.symbol-montant {
+    font-size: 18px;
+}
+     

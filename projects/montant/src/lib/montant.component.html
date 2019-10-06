@@ -1,0 +1,19 @@
+<input type="text" 
+id="{{idComponent}}" 
+class="{{classComponent}} input-montant component-on-error-{{fc.invalid}}"
+#input 
+(click)="onClick($event)" 
+(blur)="onBlur($event)">
+<span class="symbol-montant">{{symbol}}</span>
+<span>
+<p class="format-on-error-{{fc.hasError('format')}}">{{messageErreurFormat}}</p>
+<p class="montantMin-on-error-{{fc.hasError('montantMin')}}">{{messageErreurMontantMin}}</p>
+<p class="montantMax-on-error-{{fc.hasError('montantMax')}}">{{messageErreurMontantMax}}</p>
+<p class="mandatory-on-error-{{fc.hasError('mandatory')}}">{{messageErreurMandatory}}</p>
+</span>
+
+
+
+
+
+      
